@@ -1,0 +1,49 @@
+@media only screen and (max-width: 630px){
+    .about{
+        padding: 2rem;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10rem;
+        margin-bottom: 12rem;
+    }
+    
+    .about img{
+        height: 60%;
+        margin-bottom: 3rem;
+    }
+    
+    .about .about-child{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        margin-left: 1rem;
+    }
+    
+    .about .about-child h1{
+        font-size: 3rem;
+        color: #000;
+        text-align: center;
+    }
+    
+    .about .about-child p{
+        font-size: 1.2rem;
+        color: #000;
+        margin-top: 1rem;
+        max-width: 97%;
+        text-align: center;
+    }
+    
+    .about .about-child button{
+        margin-top: 2rem;
+        font-size: 1rem;
+        border: none;
+        padding: 1rem 2rem;
+        transition: 0.3s ease;
+        width: 100%;
+        cursor: pointer;
+    }
+}

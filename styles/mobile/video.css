@@ -1,0 +1,32 @@
+@media only screen and (max-width: 630px){
+    .video{
+        background-color: rgb(200,200,200);
+        display: flex;
+        padding: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video .items{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 2rem;
+        margin-top: 5rem;
+    }
+
+    .video .items h1{
+        margin-top: -3rem;
+        font-size: 1.5rem;
+    }
+
+    .video .items p{
+        font-size: 1.1rem;
+        margin-top: 1rem;
+    }
+
+    .iframe{
+        width: 100%;
+    }
+}

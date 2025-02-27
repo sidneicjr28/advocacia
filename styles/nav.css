@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(235,235,235);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ajustes da navbar */
+nav{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    height: 4.4rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 95%;
+    z-index: 2;
+}
+
+nav .nav-image{
+    left: 0;
+    position: absolute;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-image img{
+    height: 3rem;
+    margin-right: 2rem;
+}
+
+nav .nav-image p{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+}
+
+nav .nav-list{
+    right: 0;
+    position: absolute;
+    display: flex;
+    margin-right: 2rem;
+}
+
+nav .nav-list ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+nav .nav-list ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav .nav-list ul li{
+    margin-right: 1.5rem;
+}
+
+nav .nav-list ul li a:hover{
+    color: gray;
+}
+
+nav .nav-list ul li a:active{
+    color: #000;
+}

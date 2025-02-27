@@ -1,0 +1,106 @@
+main{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.area-atuacao{
+    margin-top: 4rem;
+}
+
+main h2{
+    color: #aa6600;
+    margin: 2rem;
+    font-size: 2.5rem;
+}
+
+main .area-atuacao{
+    display: flex;
+    height: 90vh;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.area-atuacao-item {
+    min-width: 100%;
+    max-height: 65%;
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: left;
+    overflow: hidden;
+}
+
+.area-atuacao-item img {
+    width: 40%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+}
+
+.prev,
+.next {
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    max-height: 65%;
+}
+
+.prev { left: 0; }
+.next { right: 0; }
+
+button:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+main .area-atuacao h3{
+    color: #000;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+main .area-atuacao p{
+    color: #000;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+main .area-atuacao ul{
+    margin-left: 1.2rem;
+    padding: 0;
+}
+
+main .area-atuacao ul li{
+    color: #000;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.image{
+    -webkit-mask-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 30%);
+    mask-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 30%);
+}

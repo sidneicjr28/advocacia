@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/components.css" rel="stylesheet" />
+    <link href="/styles/nav.css" rel="stylesheet" />
+    <link href="/styles/header.css" rel="stylesheet" />
+    <link href="/styles/atuacao.css" rel="stylesheet" />    
+    <link href="/styles/about.css" rel="stylesheet" />
+    <link href="/styles/video.css" rel="stylesheet" />
+    <link href="/styles/contact.css" rel="stylesheet" />
+    <link href="/styles/footer.css" rel="stylesheet" />
+
+    <link href="/styles/mobile/nav.css" rel="stylesheet" />
+    <link href="/styles/mobile/header.css" rel="stylesheet" />
+    <link href="/styles/mobile/atuacao.css" rel="stylesheet" />
+    <link href="/styles/mobile/about.css" rel="stylesheet" />
+    <link href="/styles/mobile/video.css" rel="stylesheet" />
+    <link href="/styles/mobile/contact.css" rel="stylesheet" />
+    <link href="/styles/mobile/footer.css" rel="stylesheet" />
+
+    <title>Vasconcelos Advocacia</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-image">
+            <img src="/images/logo.png" alt="logo" />
+            <p>Vasconcelos Advocacia</p>
+        </div>
+
+        <div class="nav-list">
+            <ul>
+                <li><a href="#header">Página Inicial</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header id="header">
+        <h1>Soluções Jurídicas</h1>
+        <h1>Personalizadas para Você e sua Empresa</h1>
+        <button class="hover-b-orange active-b-black">Agende uma consulta</button>
+    </header>
+
+    <main id="servicos">
+        <h2>Área de atuação</h2>
+
+        <article>
+            <div class="area-atuacao">
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+
+                <div class="slider">
+                    <div class="area-atuacao-item">
+                        <div class="items">
+                            <h3>Direito Civil</h3>
+                            <p>Consultoria e assessoria jurídica em questões relacionadas a contratos, responsabilidade civil, família e sucessões.</p>
+                            <ul>
+                                <li>Elaboração e revisão de contratos</li>
+                                <li>Cobrança de dívidas e execução de títulos</li>
+                                <li>Danos morais e materiais</li>
+                                <li>Responsabilidade civil e direito do consumidor</li>
+                            </ul>
+                        </div>
+                        <img src="/images/direito-civil.jpg" alt="direito civil image" class="image">
+                        
+                    </div>
+    
+                    <div class="area-atuacao-item">
+                        <div class="items">
+                            <h3>Direito Trabalhista</h3>
+                            <p>Atuação em casos de reclamações trabalhistas, defesas de empresas e consultoria em questões trabalhistas.</p>
+                            <ul>
+                                <li>Reclamações trabalhistas (demissões indevidas, verbas rescisórias)</li>
+                                <li>Assessoria para empregadores e funcionários</li>
+                                <li>Negociação e revisão de contratos de trabalho</li>
+                                <li>Assédio moral e acidentes de trabalho</li>
+                            </ul>
+                        </div>
+                        <img src="/images/direito-trabalhista.png" alt="direito trabalhista image" class="image">
+                        
+                    </div>
+    
+                    <div class="area-atuacao-item">
+                        <div class="items">
+                            <h3>Direito Empresarial</h3>
+                            <p>Assessoria jurídica para empresas, incluindo contratos comerciais, societário e recuperação judicial.</p>
+                            <ul>
+                                <li>Constituição e regularização de empresas</li>
+                                <li>Planejamento tributário e contratos comerciais</li>
+                                <li>Recuperação judicial e falências</li>
+                                <li>Proteção de marcas e propriedade intelectual</li>
+                            </ul>
+                        </div>
+                        <img src="/images/direito-empresarial.jpg" alt="direito empresarial image" class="image">
+                        
+                    </div>
+    
+                </div>
+    
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </article>
+
+        <article class="about" id="about">
+            <img src="/images/about.png" alt="imagem de perfil">
+            <div class="about-child">
+                <h1>Sobre nós</h1>
+                <p>Somos um escritório de advocacia com mais de 20 anos de experiência, oferecendo soluções jurídicas personalizadas para atender às necessidades de nossos clientes. Nossa equipe é composta por profissionais altamente qualificados e comprometidos com a excelência no atendimento.</p>
+                <p>Nosso objetivo é proporcionar segurança jurídica e tranquilidade aos nossos clientes, seja no âmbito pessoal ou empresarial. Estamos prontos para enfrentar os desafios jurídicos com ética, transparência e dedicação.</p>
+                
+                <button class="btn-orange hover-b-orange active-b-black">Agende uma consulta</button>
+            </div>
+        </article>
+
+        </article>
+
+        <article class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xQpJ7mURaFA?si=GsY5T0DcbP34dCwW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="iframe"></iframe>
+            <div class="items">
+                <h1>A importância de escolher um bom advogado</h1>
+                <p>O vídeo "Como escolher um bom advogado? - Direito para Leigos" oferece orientações práticas para selecionar um advogado adequado às suas necessidades. Ele destaca a importância de verificar a especialização do profissional na área jurídica relevante ao seu caso, avaliar sua experiência e buscar referências de clientes anteriores. Além disso, o vídeo sugere considerar a transparência nos honorários e a facilidade de comunicação com o advogado. Realizar consultas iniciais para discutir o caso e esclarecer dúvidas também é recomendado para assegurar uma escolha informada e confiável.</p>
+            </div>
+        </article>
+
+        <article class="contato" id="contato">
+            <h2>Entre em Contato</h2>
+            <p>Estamos disponíveis para atendê-lo. Veja abaixo nossas informações de contato.</p>
+            
+            <div class="contato-info">
+                <p><strong>Endereço:</strong> Av. Paulista, 1000 - São Paulo, SP, Brasil</p>
+                <p><strong>Telefone:</strong> (11) 4002-8922</p>
+                <p><strong>Email:</strong> contato@exemplo.com</p>
+            </div>
+    
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.2613893311464!2d-46.65537772483013!3d-23.59776677877161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8f5d8c55b%3A0x9c4dd3b292c6b0d2!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1708977039394!5m2!1spt-BR!2sus"
+                    width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </article>
+
+        <footer>
+            <div class="footer">
+                <p>© 2025 Vasconcelos Advocacia. Todos os direitos reservados.</p>
+                <p>Desenvolvido por <a href="https://www.instagram.com/ironlogic_/" target="_blank">IronLogic</a></p>
+            </div>
+        </footer>
+    </main>
+  
+    
+
+
+</body>
+<script src="/scripts/main-slide.js"></script>
+</html>

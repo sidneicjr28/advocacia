@@ -1,0 +1,72 @@
+/* mudar cor da fonte */
+
+.hover-f-gray:hover{
+    color: gray;
+}
+
+.hover-f-black:hover{
+    color: #000;
+}
+
+.active-f-black:active{
+    color: #000;
+}
+
+.active-f-gray:active{
+    color: gray;
+}
+
+/* mudar cor do background */
+
+.hover-b-orange:hover{
+    background: #5e3800;
+    color: #fff;
+}
+
+.hover-b-black:hover{
+    background: #000;
+    color: #fff;
+}
+
+.active-b-black:active{
+    background: #000;
+    color: #fff;
+}
+
+.active-b-orange:active{
+    background: #aa6600;
+    color: #fff;
+}
+
+/* botões */
+
+.btn-white{
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 1rem 2rem;
+    transition: 0.3s ease;
+}
+.btn-orange{
+    background: #aa6600;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    transition: 0.3s ease;
+}
+
+.btn:hover{
+    background: #000;
+    color: #fff;
+}
+
+.btn:active{
+    background: #000;
+    color: #fff;
+}
+
+/* Ações gerais*/
+
+html {
+    scroll-behavior: smooth;
+}
