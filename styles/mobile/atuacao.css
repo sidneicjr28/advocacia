@@ -1,4 +1,7 @@
 @media only screen and (max-width: 630px){
+    #servicos h2{
+        text-align: center;
+    }
     main .area-atuacao{
         display: flex;
         flex-direction: column;
@@ -7,16 +10,25 @@
         height: 90vh;
         padding: 1rem;
         margin-bottom: 15rem;
+        margin-top: -7rem;
     }
 
+    .slider {
+        width: 100%; /* Ensures it takes full width */
+    }
     .area-atuacao-item{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         overflow: visible;
-        padding: 0;
         text-align: center;
-        max-height: 80%;
+        height: 100%;
+        max-height: 100%;
+
+        max-width: 100%; /* Ensures it does not overflow the screen */
+        padding: 0 1rem; /* Adds some breathing space */
+        word-wrap: break-word; /* Ensures long words break correctly */
     }
 
     .area-atuacao-item img{
@@ -33,13 +45,13 @@
 
     .area-atuacao-item p{
         font-size: 1rem;
-        margin-left: 0.5rem;
+        margin-left: 0.4rem;
         text-align: center;
     }
 
     main .area-atuacao ul{
         text-align: center;
-        list-style: none;
+        /* list-style: none; */
         font-weight: 500;
     }
 
